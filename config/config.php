@@ -43,42 +43,42 @@ $db_type = 'MySQL';
 $sql_search_limit =  100;                         // limit number of maximum search results
 
 $mmfpm_db['addr']     = '127.0.0.1:3306';         // SQL server IP:port this DB located on
-$mmfpm_db['user']     = 'root';                   // SQL server login this DB located on
-$mmfpm_db['pass']     = 'x';                      // SQL server pass this DB located on
+$mmfpm_db['user']     = 'mangos';                   // SQL server login this DB located on
+$mmfpm_db['pass']     = 'mangos';                      // SQL server pass this DB located on
 $mmfpm_db['name']     = 'mmfpm';                  // MiniManager DB name
 $mmfpm_db['encoding'] = 'utf8';                   // SQL connection encoding
 
 $realm_db['addr']     = '127.0.0.1:3306';         // SQL server IP:port this realmd located on
-$realm_db['user']     = 'root';                   // SQL server login this realmd located on
-$realm_db['pass']     = 'x';                      // SQL server pass this realmd located on
+$realm_db['user']     = 'mangos';                   // SQL server login this realmd located on
+$realm_db['pass']     = 'mangos';                      // SQL server pass this realmd located on
 $realm_db['name']     = 'realmd';                 // realmd DB name
 $realm_db['encoding'] = 'utf8';                   // SQL connection encoding
 
           // position in array must represent realmd ID
 $world_db[1]['addr']  = '127.0.0.1:3306'; // SQL server IP:port this DB located on
-$world_db[1]['user']  = 'root';           // SQL server login this DB located on
-$world_db[1]['pass']  = 'x';              // SQL server pass this DB located on
+$world_db[1]['user']  = 'mangos';           // SQL server login this DB located on
+$world_db[1]['pass']  = 'mangos';              // SQL server pass this DB located on
 $world_db[1]['name']  = 'mangos';         // World Database name
 $world_db[1]['encoding']  = 'utf8';           // SQL connection encoding
 
                // position in array must represent realmd ID
 $characters_db[1]['addr']     = '127.0.0.1:3306'; // SQL server IP:port this DB located on
-$characters_db[1]['user']     = 'root';           // SQL server login this DB located on
-$characters_db[1]['pass']     = 'x';              // SQL server pass this DB located on
+$characters_db[1]['user']     = 'mangos';           // SQL server login this DB located on
+$characters_db[1]['pass']     = 'mangos';              // SQL server pass this DB located on
 $characters_db[1]['name']     = 'characters';     // Character Database name
 $characters_db[1]['encoding'] = 'utf8';           // SQL connection encoding
 
 /* Sample Second Realm config
           // position in array must represent realmd ID
 $world_db[2]['addr']          = '127.0.0.1:3306'; // SQL server IP:port this DB located on
-$world_db[2]['user']          = 'root';           // SQL server login this DB located on
+$world_db[2]['user']          = 'mangos';           // SQL server login this DB located on
 $world_db[2]['pass']          = '1';              // SQL server pass this DB located on
 $world_db[2]['name']          = 'mangos';         // World Database name
 $world_db[2]['encoding']      = 'utf8';           // SQL connection encoding
 
                // position in array must represent realmd ID
 $characters_db[2]['addr']     = '127.0.0.1:3306'; // SQL server IP:port this DB located on
-$characters_db[2]['user']     = 'root';           // SQL server login this DB located on
+$characters_db[2]['user']     = 'mangos';           // SQL server login this DB located on
 $characters_db[2]['pass']     = '1';              // SQL server pass this DB located on
 $characters_db[2]['name']     = 'characters';     // Character Database name
 $characters_db[2]['encoding'] = 'utf8';           // SQL connection encoding

@@ -390,7 +390,6 @@ unset($mailer);
 			INSERT INTO account 
 				(username,
 				sha_pass_hash,
-				gmlevel,
 				email,
 				joindate,
 				last_ip,
@@ -402,7 +401,6 @@ unset($mailer);
 			VALUES 
 				(UPPER('$user_name'),
 				'$pass',
-				0,
 				'$mail',
 				now(),
 				'$last_ip',

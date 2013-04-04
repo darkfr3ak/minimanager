@@ -17,7 +17,7 @@ $user_pass  = $sqlr->quote_smart($_POST['pass']);
 if (255 < strlen($user_name) || 255 < strlen($user_pass))
 redirect('login.php?error=1');
 
-$result = $sqlr->query('SELECT id, gmlevel, username 
+$result = $sqlr->query('SELECT id, username 
 						FROM account 
 						WHERE username = \''.$user_name.'\' AND sha_pass_hash = \''.$user_pass.'\'');
 
@@ -180,7 +180,7 @@ redirect('login.php?error=2');
 $user_name = $sqlr->quote_smart($_COOKIE['uname']);
 $user_pass = $sqlr->quote_smart($_COOKIE['p_hash']);
 
-$result = $sqlr->query('SELECT id, gmlevel, username FROM account WHERE username = \''.$user_name.'\' AND sha_pass_hash = \''.$user_pass.'\'');
+$result = $sqlr->query('SELECT id, username FROM account WHERE username = \''.$user_name.'\' AND sha_pass_hash = \''.$user_pass.'\'');
 
 unset($user_name);
 unset($user_pass);
