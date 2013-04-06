@@ -89,6 +89,7 @@ $output .= sprintf('
 // links at footer
 $output .= '
 						<p>
+						<a href="https://github.com/darkfr3ak/minimanager" target="_blank"><img src="img/logo-darkfr3ak.png" class="logo_border" alt="darkfr3ak" /></a>
 						<a href="http://mangos.osh.nu/forums/index.php?app=uportal" target="_blank"><img src="img/logo-minimanager.png" class="logo_border" alt="minimanager" /></a>
 						<a href="http://getmangos.com/" target="_blank"><img src="img/logo-mangos.png" class="logo_border" alt="mangos" /></a>
 						<a href="http://www.php.net/" target="_blank"><img src="img/logo-php.png" class="logo_border" alt="php" /></a>

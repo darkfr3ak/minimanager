@@ -9,7 +9,7 @@
 
 $lang_global = array(
   // ----- GENERAL ERROR CODES -----
-  'err_sql_conn_db' => 'Fehler - Keiner Verbindung zur Datenbank!',
+  'err_sql_conn_db' => 'Fehler - Keine Verbindung zur Datenbank!',
   'err_sql_open_db' => 'Fehler - Kann Datenbank nicht &ouml;ffnen!',
   'err_no_result' => 'Keine Ergebnisse.',
   'err_no_user' => 'Keine Benutzer gefunden!',
@@ -410,6 +410,8 @@ function lang_char()
     'inventory' => 'Inventar',
     'reputation' => 'Ruf',
     'pets' => 'Tiere',
+	'extra' => 'Extra',
+	'spells' => 'Spells',
     'bank_items' => 'Bankgegenst&auml;nde',
     'quests' => 'Quests',
     'no_act_quests' => 'Keine aktiven Quests gefunden.',
@@ -484,6 +486,8 @@ function lang_char()
     'achievement_title' => 'Achievement Title',    // <---- TODO
     'achievement_points' => 'Punkte',
     'achievement_date' => 'Date',    // <---- TODO
+    // ---- char_mail.php ----
+	'mail' => 'Mail',
   );
   return $lang_char;
 }

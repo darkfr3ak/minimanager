@@ -153,7 +153,7 @@ $proxy_cfg['pass'] = '';
 //#############################################################################
 //---- External Links ----
 
-$tt_lang                    = 'www';// wowhead tooltip language. choices are 'fr', 'de', 'es', 'ru' (for 'en' use www)
+$tt_lang                    = 'de';// wowhead tooltip language. choices are 'fr', 'de', 'es', 'ru' (for 'en' use www)
 $item_datasite              = 'http://'.$tt_lang.'.wowhead.com/?item=';
 $quest_datasite             = 'http://'.$tt_lang.'.wowhead.com/?quest=';
 $creature_datasite          = 'http://'.$tt_lang.'.wowhead.com/?npc=';

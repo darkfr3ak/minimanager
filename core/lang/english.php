@@ -1,11 +1,11 @@
 <?php
 /*
- * Project Name: MiniManager for Project Mangos/Trinity
- * License: GNU General Public License v2(GPL)
- * Language: English
- * Supported Minimanager Revision: Latest (default language)
- * Translator:
- */
+* Project Name: MiniManager for Project Mangos/Trinity
+* License: GNU General Public License v2(GPL)
+* Language: English
+* Supported Minimanager Revision: Latest (default language)
+* Translator:
+*/
 
 $lang_global = array(
   // ----- GENERAL ERROR CODES -----
@@ -203,7 +203,7 @@ function lang_index()
     'motd' => 'Message of the Day',
     'news' => 'News',
     'annoucement' => 'Annoucement',
-	'delete' => 'Delete',
+'delete' => 'Delete',
     'tot_users_online' => 'Total Users Online',
     'name' => 'Name',
     'race' => 'Race',
@@ -278,10 +278,10 @@ function lang_header()
     'irc' => 'IRC Applet',
     'bugreport' => 'Bug Report',
 
-	//links on header
+//links on header
     'link1' => 'Chat',
-	'link2' => 'Forum',
-	'link3' => 'Vote',
+'link2' => 'Forum',
+'link3' => 'Vote',
 
     // please check the length at 'My Account' Menu
     'realms' => '------Realms------',
@@ -470,7 +470,7 @@ function lang_char()
     'master' => 'Master',
     'grand_master' => 'Grand Master',
     'illustrious' => 'Illustrious',
-	
+
     // -----char_friends.php---
     'friends' => 'Friends',
     'friendof' => 'Friends of',
@@ -513,29 +513,29 @@ function lang_char()
     'achievement_points' => 'Points',
     'achievement_date' => 'Date',
     // ---- char_extra.php ----
-	'char_arrows' => 'Arrows',
-	'char_bullets' => 'Bullets',
-	'char_leather' => 'Leather Working',
-	'char_herbs' => 'Herbs',
-	'char_enchanting' => 'Enchanting',
-	'char_engineering' => 'Engineering',
-	'char_keys' => 'Keys',
-	'char_gems' => 'Gems',
-	'char_mining' => 'Mining',
-	'char_companions' => 'Companions',
-	'char_tokens' => 'Tokens',
-	'char_quest_items' => 'Quest Items',
-	'char_soulbound' => 'Soulbound Equipmment',
+'char_arrows' => 'Arrows',
+'char_bullets' => 'Bullets',
+'char_leather' => 'Leather Working',
+'char_herbs' => 'Herbs',
+'char_enchanting' => 'Enchanting',
+'char_engineering' => 'Engineering',
+'char_keys' => 'Keys',
+'char_gems' => 'Gems',
+'char_mining' => 'Mining',
+'char_companions' => 'Companions',
+'char_tokens' => 'Tokens',
+'char_quest_items' => 'Quest Items',
+'char_soulbound' => 'Soulbound Equipmment',
     // ----char tabs----
     'char_sheet' => 'Sheet',
     'inventory' => 'Inventory',
-	'extra' => 'Extra',
+'extra' => 'Extra',
     'reputation' => 'Reputation',
     'pets' => 'Pets',
-	'spells' => 'Spells',
-	'mail' => 'Mail',
-	'mounts' => 'Mounts',
-	'companions' => 'Companions',
+'spells' => 'Spells',
+'mail' => 'Mail',
+'mounts' => 'Mounts',
+'companions' => 'Companions',
 );
   return $lang_char;
 }
@@ -875,13 +875,13 @@ function lang_mail()
     'use_currect_option' => 'Some of the \'Group Send\' options can be used only with \'inGame mail\' or \'Email\' but not with both.',
     'send_mail' => 'Send Mail',
     'result' => 'InGame Mail Result',
-	'mail_on' => 'Ingame Mail',
-	'sender' => 'Sender',
-	'receiver' => 'Receiver',
-	'has_items' => 'Has Items',
-	'text' => 'Text',
-	'checked' => 'Checked',
-	'id' => 'ID',
+'mail_on' => 'Ingame Mail',
+'sender' => 'Sender',
+'receiver' => 'Receiver',
+'has_items' => 'Has Items',
+'text' => 'Text',
+'checked' => 'Checked',
+'id' => 'ID',
   );
   return $lang_mail;
 }
@@ -1566,7 +1566,7 @@ $lang_creature = array(
   'speed' => 'Speed',
   'speed_desc' => 'Creature\'s speed. Use float values in 0<<3 range.',
   'size' => 'Size',
-  'size_desc' => 'Creature model size 1 = 100%. Float  0<<3 range.',
+  'size_desc' => 'Creature model size 1 = 100%. Float 0<<3 range.',
   'damage' => 'Damage',
   'min_damage' => 'Min Damage',
   'min_damage_desc' => 'Creature\'s minimum melee damage.',
@@ -1975,7 +1975,7 @@ $lang_arenateam = array(
   'del_team' => 'Delete Arena Team',
   'team_search_result' => 'Arena Teams Search Results',
   'browse_teams' => 'Browse Arena Teams',
-  'tot_teams' => 'Total  Arena Teams',
+  'tot_teams' => 'Total Arena Teams',
   'members' => 'Members',
   'tot_members' => 'Total Members',
   'games' => 'Games played',
@@ -2039,14 +2039,14 @@ function lang_instances()
   (
     'instances' => 'Instances',
     'total' => 'Total',
-	'id' => 'id',
+'id' => 'id',
     'map' => 'Map',
     'level_min' => 'Minimum level',
     'level_max' => 'Maximum level',
-	'area' => 'Area',
-	'type' => 'Type',
-	'expansion' => 'Expansion',
-	'ppl' => 'People'
+'area' => 'Area',
+'type' => 'Type',
+'expansion' => 'Expansion',
+'ppl' => 'People'
   );
   return $lang_instances;
 }
@@ -2174,7 +2174,7 @@ function lang_telnet()
 // ---- message.php ----
 function lang_message()
 {
-  $lang_message  = array
+  $lang_message = array
   (
     'main' => 'Send System Message/Global Notification',
     'announcement' => 'Announcement',
@@ -2282,7 +2282,7 @@ function lang_forum()
 // ---- message.php ----
 function lang_group()
 {
-  $lang_group  = array
+  $lang_group = array
   (
     'groups' => 'Groups',
     'tot_group' => 'Total Groups',
@@ -2294,9 +2294,9 @@ function lang_group()
     'type' => 'Type',
     'group' => 'Group',
     'member' => 'Member',
-	'race' => 'Race',
-	'class' => 'Class',
-	'level' => 'Level',
+'race' => 'Race',
+'class' => 'Class',
+'level' => 'Level',
     'assistant' => 'Assistant',
   );
   return $lang_group;
