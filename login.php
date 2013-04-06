@@ -17,7 +17,7 @@ $user_pass  = $sqlr->quote_smart($_POST['pass']);
 if (255 < strlen($user_name) || 255 < strlen($user_pass))
 redirect('login.php?error=1');
 
-$result = $sqlr->query('SELECT id, username 
+$result = $sqlr->query('SELECT id, username, gmlevel 
 						FROM account 
 						WHERE username = \''.$user_name.'\' AND sha_pass_hash = \''.$user_pass.'\'');
 

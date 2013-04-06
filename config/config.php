@@ -20,7 +20,7 @@
 //#############################################################################
 //---- Version Information ----
 
-$show_version['show']        = '1';    // 0 - Don't Show, 1 - Show Version, 2 - Show Version and SVN Revision
+$show_version['show']        = '0';    // 0 - Don't Show, 1 - Show Version, 2 - Show Version and SVN Revision
 $show_version['version']     = '0.16';
 $show_version['version_lvl'] = '-1';    // Minimum account level to show Version to, -1 is guest account
 $show_version['svnrev']      = '0';    // SVN Revision will be read from .svn folder, values here hold no meaning or effect
