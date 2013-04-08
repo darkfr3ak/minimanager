@@ -201,6 +201,7 @@ function lang_index()
   'trinity_rev' => 'Trinity Rev',
   'using_db' => 'using db:',
   'maxplayers' => 'Max players this uptime session',
+  'maxplayersever' => 'Maximale Spieleranzahl seit Serverstart',
   );
   return $lang_index;
 }
