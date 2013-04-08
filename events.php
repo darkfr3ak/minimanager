@@ -19,8 +19,16 @@ $sqlw->connect($world_db[$realm_id]['addr'], $world_db[$realm_id]['user'], $worl
 
 //==========================$_GET and SECURE========================
 
-// pagination and order by to prevent sql injection
-require_once './include/security.php';
+	// pagination and order by to prevent sql injection
+
+	$start = (isset($_GET['start'])) ? $sqlw->quote_smart($_GET['start']) : 0;
+	if (is_numeric($start)); else $start=0;
+
+	$order_by = (isset($_GET['order_by'])) ? $sqlw->quote_smart($_GET['order_by']) : 'description';
+	if (preg_match('/^[_[:lower:]]{1,11}$/', $order_by)); else $order_by='description';
+
+	$dir = (isset($_GET['dir'])) ? $sqlw->quote_smart($_GET['dir']) : 1;
+	if (preg_match('/^[01]{1}$/', $dir)); else $dir=1;
 
 	$order_dir = ($dir) ? 'DESC' : 'ASC';
 	$dir = ($dir) ? 1 : 0;
