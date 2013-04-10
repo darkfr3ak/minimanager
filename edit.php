@@ -21,7 +21,7 @@ function edit_user(&$sqlr, &$sqlc)
 
 	$refguid = $sqlm->result($sqlm->query('
 		SELECT InviterAccount 
-		FROM point_system_invites 
+		FROM mm_point_system_invites 
 		WHERE PlayersAccount = \''.$user_id.'\''), 0, 'InviterAccount');
 	$referred_by = $sqlr->result($sqlr->query('
 		SELECT username 
@@ -347,7 +347,7 @@ function doupdate_referral($referredby, &$sqlr)
 
 	if (NULL == $sqlm->result($sqlm->query('
 		SELECT InviterAccount 
-		FROM point_system_invites 
+		FROM mm_point_system_invites 
 		WHERE PlayersAccount = \''.$user_id.'\''), 'InviterAccount'))
 	{
 		$referred_by = $sqlr->result($sqlr->query('
@@ -362,7 +362,7 @@ function doupdate_referral($referredby, &$sqlr)
 			else
 			{
 				$sqlm->query('
-					INSERT INTO point_system_invites
+					INSERT INTO mm_point_system_invites
 						(PlayersAccount, InviterAccount) 
 					VALUES
 						(\''.$user_id.'\', \''.$referred_by.'\')');
